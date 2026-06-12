@@ -270,6 +270,18 @@ a { text-decoration: none; color: inherit; }
   filter: grayscale(0%) opacity(100%);
 }
 
+/* Display Flipkart and Meesho logos in their original vibrant brand colors by default */
+.partner-logo.flipkart-logo,
+.partner-logo.meesho-logo {
+  filter: grayscale(0%) opacity(90%);
+}
+
+.partner-card:hover .flipkart-logo,
+.partner-card:hover .meesho-logo {
+  filter: grayscale(0%) opacity(100%);
+  transform: scale(1.05);
+}
+
 .amazon-logo {
   filter: invert(1) hue-rotate(180deg) opacity(60%);
 }
@@ -550,16 +562,86 @@ a { text-decoration: none; color: inherit; }
 }
 
 @media (max-width: 480px) {
-  .products-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
-  .product-name { font-size: 0.88rem; }
-  .product-desc { font-size: 0.78rem; }
-  .section-container { padding: 32px 14px 60px; }
+  .products-grid { 
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+  }
+  .section-container { 
+    padding: 24px 10px 60px; 
+  }
+  
+  .product-card {
+    border-radius: var(--radius-md);
+  }
+  
+  .product-info {
+    padding: 12px;
+  }
+
+  .product-name { 
+    font-size: 0.88rem; 
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .product-desc { 
+    font-size: 0.76rem; 
+    line-height: 1.4;
+    margin-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .product-footer {
+    width: 100%;
+  }
+
+  .product-shop-link {
+    font-size: 0.78rem;
+    padding: 6px 10px;
+    width: 100%;
+    justify-content: center;
+  }
   
   .hero-title {
     font-size: 1.85rem;
   }
+
+  /* Compact partner cards for mobile view */
+  .partners-grid {
+    gap: 10px;
+  }
+  .partner-card {
+    width: 105px;
+    height: 52px;
+    border-radius: 10px;
+  }
+  .partner-logo {
+    max-height: 40px;
+  }
 }
 
 @media (max-width: 360px) {
-  .products-grid { grid-template-columns: 1fr; }
+  .products-grid { 
+    grid-template-columns: 1fr 1fr; 
+    gap: 8px; 
+  }
+  .product-info {
+    padding: 10px;
+  }
+  .product-name {
+    font-size: 0.82rem;
+  }
+  .product-desc {
+    display: none; /* Hide description on extremely small screens to keep height consistent */
+  }
+  .product-shop-link {
+    font-size: 0.72rem;
+    padding: 5px 8px;
+  }
 }
