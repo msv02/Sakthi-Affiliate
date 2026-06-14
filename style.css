@@ -85,6 +85,13 @@ a { text-decoration: none; color: inherit; }
   filter: drop-shadow(0 0 10px rgba(168,85,247,0.5));
 }
 
+.nav-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
 .logo-text {
   font-family: var(--font-heading);
   font-size: 1.25rem;
@@ -283,12 +290,12 @@ a { text-decoration: none; color: inherit; }
 }
 
 .amazon-logo {
-  filter: invert(1) hue-rotate(180deg) opacity(60%);
+  filter: invert(1) hue-rotate(180deg) opacity(85%);
 }
 
 .partner-card:hover .amazon-logo {
   filter: invert(1) hue-rotate(180deg) opacity(100%);
-}
+  transform: scale(1.05);
 }
 
 /* ---------- Products Section ---------- */
@@ -669,6 +676,40 @@ a { text-decoration: none; color: inherit; }
 .page-products {
   padding: 140px 24px 80px;
   background: radial-gradient(circle at 50% -20%, rgba(99, 102, 241, 0.12) 0%, rgba(7, 6, 15, 0) 50%);
+}
+
+.back-home-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  transition: var(--transition);
+  margin-bottom: 24px;
+  width: 40px;
+  height: 40px;
+}
+
+.back-home-link svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.back-home-link:hover {
+  color: var(--purple);
+  border-color: var(--border-hover);
+  background: rgba(168, 85, 247, 0.08);
+  transform: translateX(-4px);
+  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.1);
+}
+
+.back-home-link:hover svg {
+  transform: translateX(-3px);
 }
 
 .products-page-header {
