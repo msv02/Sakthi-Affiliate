@@ -124,6 +124,13 @@ const products = [
     description: "High-quality 9H edge-to-edge tempered glass screen protector for Vivo Y200e (6.67-inch). Includes an easy-to-use installation kit for bubble-free application.",
     image: "https://res.cloudinary.com/dbqd8ehhf/image/upload/v1781534589/ChatGPT_Image_Jun_15_2026_at_08_12_50_PM_syyy46.png",
     link: "https://www.amazon.in/gp/product/B0D1QS88T6?smid=AU2QX2WP7B51I&th=1&linkCode=ll2&tag=msv026-21&linkId=c8bbdc5cb7abec9bb7754c3a1e9a37f9&ref_=as_li_ss_tl"
+  },
+  {
+    id: "popio-samsung-a06-tempered-glass",
+    name: "POPIO Gorilla Tempered Glass for Samsung Galaxy A06",
+    description: "Military-grade 9H hardness Gorilla tempered glass screen protector for Samsung Galaxy A06 / F06 / M06. Features edge-to-edge protection, scratch resistance, and bubble-free installation.",
+    image: "https://res.cloudinary.com/dbqd8ehhf/image/upload/v1781537974/ChatGPT_Image_Jun_15_2026_at_09_09_12_PM_er5liy.png",
+    link: "https://www.amazon.in/POPIO-Samsung-Galaxy-A06-M06/dp/B0DP26T4XY?crid=1B167GJGEN25S&dib=eyJ2IjoiMSJ9.90lyWHHHRX9rNVk6WSFSqyY_kYqS2y_NQ3Ue6PjUa3pJim0XnPxTjtVONjaflmooYdiY9X0vQkhAMSl33FPZgUPse7J6iWok41-BFRRf52NwQ8ysdHYN_fVIWnWr5TKWyX7DP3rttEULYE4RfFVT2eNrDDmCVUvHssO0VN6kWeC8D-1JOaa_Rx_U6c5WRpOCdWcyTdA9Vfvpns1vQ7pHgIsmNGIeDUGxp68EFkkDpVs.FoQHBDacd4RlTOhP4GnR1zOdjA9HhZki02bblGG93Hg&dib_tag=se&keywords=samsung%2Ba06%2Btempered%2Bglass&qid=1781537735&rnid=1318475031&sprefix=samsung%2Ba06%2Btempered%2Caps%2C411&sr=8-2-spons&aref=9cC2ibYkkf&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=msv026-21&linkId=f899deaf5f921e1eedadc282dece410a&ref_=as_li_ss_tl"
   }
 ];
 // ============ END OF PRODUCTS ============
