@@ -103,6 +103,27 @@ const products = [
     description: "Smart speaker with Alexa, offering deeper bass, vibrant sound, built-in temperature sensor, and motion detection.",
     image: "https://res.cloudinary.com/dbqd8ehhf/image/upload/q_auto/f_auto/v1781449603/Amazon-Echo-Dot-5th-Gen-Smart-speaker-with-vibrant-sound-Motion-Detection-Temper-0-1200x1200_tikntz.jpg",
     link: "https://www.amazon.in/gp/product/B09B8XJDW5?smid=AJ6SIZC8YQDZX&th=1&linkCode=ll2&tag=msv026-21&linkId=3fabce184d9de5f23e076495960e0da6&ref_=as_li_ss_tl"
+  },
+  {
+    id: "squeeze-rinsing-eye-cup",
+    name: "Squeeze Rinsing Eye Wash Cup",
+    description: "An ergonomic silicone eye wash cup designed to gently rinse away dust, makeup residue, and irritants using manual air pressure. Perfect for refreshing tired and irritated eyes.",
+    image: "https://res.cloudinary.com/dbqd8ehhf/image/upload/v1781488451/51H4_5GAVIL._AC_UF1000_1000_QL80__reoijb.jpg",
+    link: "https://www.amazon.in/gp/product/B0DVLKJVYP?smid=A38NIY4R9X6VUN&th=1&linkCode=ll2&tag=msv026-21&linkId=f5f0201760d1db4be5a8228381122344&ref_=as_li_ss_tl"
+  },
+  {
+    id: "glassverse-vivo-s1-pro-tempered-glass",
+    name: "GlassVerse 9H Tempered Glass for Vivo S1 Pro",
+    description: "Premium 9H surface hardness tempered glass screen protector for Vivo S1 Pro (6.38-inch). Features anti-glare, scratch resistance, and rounded edges with a free installation kit.",
+    image: "https://res.cloudinary.com/dbqd8ehhf/image/upload/v1781534421/ChatGPT_Image_Jun_15_2026_at_08_09_53_PM_lc1ojj.png",
+    link: "https://www.amazon.in/gp/product/B0BPS8PFKH?smid=ANVCTQ7K82P8U&th=1&linkCode=ll2&tag=msv026-21&linkId=1f7850effd3cb7fc778c00dc670c1919&ref_=as_li_ss_tl"
+  },
+  {
+    id: "supcares-vivo-y200e-tempered-glass",
+    name: "SupCares Tempered Glass for Vivo Y200e",
+    description: "High-quality 9H edge-to-edge tempered glass screen protector for Vivo Y200e (6.67-inch). Includes an easy-to-use installation kit for bubble-free application.",
+    image: "https://res.cloudinary.com/dbqd8ehhf/image/upload/v1781534589/ChatGPT_Image_Jun_15_2026_at_08_12_50_PM_syyy46.png",
+    link: "https://www.amazon.in/gp/product/B0D1QS88T6?smid=AU2QX2WP7B51I&th=1&linkCode=ll2&tag=msv026-21&linkId=c8bbdc5cb7abec9bb7754c3a1e9a37f9&ref_=as_li_ss_tl"
   }
 ];
 // ============ END OF PRODUCTS ============
